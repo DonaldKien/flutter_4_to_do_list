@@ -26,11 +26,13 @@ class _MyFormState extends State<MyForm> {
           child: Center(
             child: Column(
               children: <Widget>[
-                Text(
-                  'Add New Item',
-                  style: TextStyle(
-                    fontSize: 32,
-                    fontWeight: FontWeight.bold,
+                Flexible(
+                  child: Text(
+                    'Add New Item',
+                    style: TextStyle(
+                      fontSize: 32,
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
                 ),
                 SizedBox(
